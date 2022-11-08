@@ -2,43 +2,51 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link href="./assets/reset.css" rel="stylesheet">
+  <link href="./assets/style.css" rel="stylesheet">
   <title>Tip calculator</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+ 
 </head>
 <body>
-
-  Bill
-
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
-
-  Number of People
-
-  Tip Amount
-  / person
-
-  Total
-  / person
-
-  Reset
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div id="container">
+    <div id="topo">
+      <h1 class="titulo__texto">Tip Calculator</h1>
+    </div>
   </div>
+
+    <div id="calculator">
+      <form >
+        <p>Bill</p>
+           <input id="total-conta" type="text" placeholder="Bill">
+
+          <p>Select tip %</p>
+            <select id="taxa-de-servico">
+              <option disabled selected value="0"></option>
+               <option value="0.05">5%</option> 
+               <option value="0.1">10%</option>
+               <option value="0.15">15%</option> 
+               <option value="0.25">25%</option>
+               <option value="0.5">50%</option>
+            </select>
+      </form>
+        <p>Number of people</p>
+        <input id="numero-pessoas" type="text" placeholder="Persons">
+        <button type="button" id="calcular">Calculate</button>
+      </div>
+
+      <!--Resultados-->
+      <div id="valor-calculado">
+        <sup>$</sup><span id="valor-por-pessoa">0.00</span>
+        <small id="each">Each</small>
+      </div>
+
+ 
 </body>
+<script type="text/JavaScript" src="./assets/script.js"></script>
 </html>

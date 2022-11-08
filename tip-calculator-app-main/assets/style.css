@@ -1,0 +1,79 @@
+body {
+    background-color: rgba(160, 236, 236, 0.863);
+    font-family: 'Space Mono', monospace;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    padding: .5rem;
+}
+
+input {
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    padding-top: 8em;
+    padding-bottom: 2rem;
+  
+}
+
+.titulo__texto {
+    font-family: 'Space Mono', monospace;
+    font-size: 28px;
+}
+
+#total-conta {
+    background: url(../images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+#calculator {
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: white;
+   width: 50%;
+   margin: auto;
+   border-radius: 20px;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+
+}
+
+#taxa-de-servico{
+    border-radius: 10px;
+    padding: .5rem;
+    margin-right: 5rem;   
+}
+
+#numero-pessoas {
+    background: url(../images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: 5px;
+
+}
+
+::placeholder {
+   padding-left: 15px;
+}
+
+#calcular {
+    margin-top: 1rem;
+    border-radius: 10px;
+    width: 50%;
+    padding: 1rem;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+}
+
+#calcular:hover {
+    cursor: pointer;
+    
+}
+
