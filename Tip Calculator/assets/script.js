@@ -1,5 +1,5 @@
-document.getElementById("valor-calculado").style.display = "none"
-document.getElementById('each').style.display = 'none'
+//document.getElementById("valor-calculado").style.display = "none"
+//document.getElementById('each').style.display = 'none'
 onclick
 
 function calculateDinner(){
