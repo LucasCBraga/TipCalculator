@@ -6,18 +6,26 @@ body {
 p {
     font-size: 18px;
     text-align: center;
-    padding: .5rem;
+    padding: .8rem;
 }
 
 input {
     border-radius: 10px;
     padding: .5rem;
+    width: 250px;
+    height: 30px;
+}
+
+select {
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
 }
 
 #container{
     display: flex;
     justify-content: center;
-    padding-top: 6em;
+    padding-top: 5em;
     padding-bottom: 2rem;
   
 }
@@ -31,14 +39,12 @@ input {
     background: url(../images/icon-dollar.svg);
     background-repeat: no-repeat;
     background-position: 5px;
-    width: 250px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
 }
 
 #calculator {
-   padding: 1rem;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -50,18 +56,12 @@ input {
 
 }
 
-#taxa-de-servico{
-    border-radius: 10px;
-    padding: .5rem;
-    width: 100%;
-}
-
 #numero-pessoas {
     background: url(../images/icon-person.svg);
     background-repeat: no-repeat;
     background-position: 5px;
     text-align: center;
-
+     
 }
 
 ::placeholder {
@@ -72,7 +72,7 @@ input {
 #calcular {
     margin-top: 1rem;
     border-radius: 10px;
-    width: 50%;
+    width: 270px;
     padding: 1rem;
     background-color: hsl(183, 100%, 15%);
     color: white;
@@ -83,10 +83,34 @@ input {
     
 }
 
-#valor-calculado {
-    padding: 1rem;
-}
-    
 #valor-por-pessoa {
     font-size: 24px;
+}
+
+#valor-calculado {
+    padding-top: 1rem;
+    background-color: cadetblue;
+    margin: 1rem;
+    width: 270px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:470px) {
+   
+    #container {
+        padding-top: 2rem;
+    }
+
+   #calculator {
+    width: 90%;
+   }
+}
+
+@media screen and (max-width:768px) {
+
+    #container {
+        padding-top: 2rem;
+    }   
 }
