@@ -36,7 +36,7 @@ select {
 }
 
 #total-conta {
-    background: url(../images/icon-dollar.svg);
+    background: url(./images/icon-dollar.svg);
     background-repeat: no-repeat;
     background-position: 5px;
     text-align: center;
@@ -57,7 +57,7 @@ select {
 }
 
 #numero-pessoas {
-    background: url(../images/icon-person.svg);
+    background: url(./images/icon-person.svg);
     background-repeat: no-repeat;
     background-position: 5px;
     text-align: center;
@@ -96,6 +96,25 @@ select {
     text-align: center;
     border-radius: 10px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.texto-footer{
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.logo-footer{
+    width: 60px;
+    padding: 1rem;
+    
+}
+
 
 @media screen and (max-width:470px) {
    
