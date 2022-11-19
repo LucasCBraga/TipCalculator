@@ -13,12 +13,11 @@
 Calculadora para calcular gorjetas, usuário insere o valor total da conta, seleciona a porcentagem da gorjeta oferecida <br>
 e por quantas pessoas a conta será divida, com esses dados a calculadora ira retornar o valor para cada pessoa.
 
-Tecnologias usadas:
-
-HTML <br/>
-CSS <br/>
-JavaScript
-
+### Conceitos aprendidos <br>
+• A semântica do HTML <br>
+• A estilização no CSS <br>
+• Bibliotecas externas do JavaScript <br>
+• Responsividade do site
 
 ### Considerações
 
